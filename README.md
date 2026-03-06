@@ -35,3 +35,10 @@ This project focuses on solving a real user need:
 - The color theme was updated to a more professional yellow/green style.
 - The app is designed as a learning mini project, not a medical device.
 
+## What I Learned
+
+- Interviewing first changes the quality of the final product because the flow is built around a real person’s needs, not assumptions.
+- CSS-only step logic works well for structure, but JavaScript is still necessary for real-time features like countdown timers and synced progress values.
+- Professional visual design is mostly about consistency: spacing, typography, color harmony, and readable contrast.
+- AI helps speed up implementation, but the best results came from reviewing, testing, and rewriting suggestions to match my client’s goals.
+

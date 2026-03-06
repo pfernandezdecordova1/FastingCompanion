@@ -15,86 +15,58 @@ The app should help Kike:
 - confirm safety guidelines,
 - start a fast and see a live countdown.
 
-## 3. Scope and Features
-### Core features
-1. Personal setup step (name and profile basics)
-2. Fasting duration options: 1, 2, 3, and 5 days
-3. Progress view and hydration controls
-4. Safety warning section with required confirmation
-5. Start Fast action that opens a final focus page
-6. Countdown clock based on selected fasting duration
-7. Water goal and intake progress display
+## 2.1 Client Brief
 
-### Display
-- clear section-by-section flow,
-- mobile-friendly layout,
-- local image assets,
-- motivational final screen with encouraging message.
+**Client:** Kike (friend, active student lifestyle, interested in safer fasting habits)
 
-## 4. Technical Approach
-- HTML for structure
-- CSS for layout, styling, and most interactive states
-- Lightweight JavaScript only for dynamic countdown/progress logic
+**Purpose:** Create one clear web experience that helps Kike fast safely while tracking hydration and time.
 
-This keeps the project simple while still allowing real-time timer behavior.
+**Audience:**
+- Primary: Kike (daily personal use during fasting periods)
+- Secondary: Any beginner/intermediate faster who needs simple hydration and safety reminders
 
-## 5. Step-by-Step Implementation Plan
-### Step 1: Discovery with client
-- Ask Kike what information he needs most during a fast.
-- Define what must be visible at all times (timer, hydration, safety notes).
+**Key action:**
+- Main action is to complete setup and click Start Fast button after reading and accepting safety guidance.
 
-### Step 2: Content planning
-- Prepare fasting durations and hydration targets.
-- Write short, clear safety guidelines and nutrient reminders.
+**Pages/sections needed:**
+- Personal information setup
+- Fasting duration selection
+- Progress dashboard
+- Hydration tracker
+- Health and safety guidelines
+- Active fast pop-out screen with countdown
 
-### Step 3: Page structure
-- Build a multi-step interface in `index.html`:
-	- personal info,
-	- duration selection,
-	- progress/hydration,
-	- safety confirmation,
-	- final active-fast screen.
+**Content status:**
+- Available now: fasting durations, hydration targets, safety guidelines, vitamin/mineral reminders, selected image assets
+- Still improving: personalized copy based on future client feedback after more real usage
 
-### Step 4: Styling and layout
-- Design a clean card-based interface in `CSS/styles.css`.
-- Add responsive behavior for tablet/mobile.
-- Add local images from `images/` for hero and final overlay background.
+**Style preferences:**
+- Professional but motivating
+- Clean card layout and simple steps
+- Color direction requested: less purple, more yellow/green wellness style
+- Visual tone: energetic, healthy, and easy to read on mobile
 
-### Step 5: Interaction logic
-- Implement timer logic in `js/script.js`.
-- Start countdown only after user confirms safety and clicks Start Fast. I used AI for this step because we have not learned how to do it yet.
-- Calculate remaining time and progress percent from selected duration.
-- Sync water intake selection with final screen values.
+**Inspiration sites:**
+- Noom (https://www.noom.com) – client liked the clean structure and easy onboarding flow
+- Headspace (https://www.headspace.com) – client liked calm visuals and clear content hierarchy
+- MyFitnessPal (https://www.myfitnesspal.com) – client liked clear tracking blocks and progress-focused layout
 
-### Step 6: Safety flow validation
-- Confirm that Start Fast appears only after safety checkbox is checked.
-- Confirm user can stop/reset and return to setup state.
+## 2.2 Interview Evidence and Permission
 
-### Step 7: QA and polish
-- Test all duration options (1/2/3/5 days).
-- Test hydration values and progress bars.
-- Check layout on desktop and mobile widths.
-- Remove broken links, console errors, and unused elements.
+**Conversation 1 – Initial interview (Feb 19, 2026, ~20 min):**
+- We discussed his main challenge: forgetting hydration targets and losing track of time during fasting.
+- He requested a guided step-by-step format instead of a long single page.
+- He asked for clear warnings before starting the fast and a visible countdown once the fast begins.
 
-## 6. Deliverables
-1. Functional fasting companion webpage
-2. Multi-step setup + active fasting pop-out screen
-3. Countdown and progress tracking
-4. Local image assets in project folder
-5. Final documentation update in repository
+**Conversation 2 – Feedback session (Mar 1, 2026, ~15 min):**
+- He reviewed the first styled version and asked for a more professional color palette.
+- He requested stronger motivation on the final screen plus reminders for post-fast healthy eating.
+- He preferred local images and a cleaner visual style with less clutter.
 
-## 7. Success Criteria
-The project is successful if:
-- Kike can complete setup in under 2 minutes,
-- the selected fasting duration starts the correct countdown,
-- hydration target and current intake are clear,
-- safety confirmation is required before starting,
-- the app is easy to use on phone and laptop.
+**Permission confirmation:**
+- Kike confirmed that I have permission to design and develop this project for him and to use it in my class portfolio submission.
 
-## 8. What I learned using AI tools
-- How to improve HTML/CSS structure without overcomplicating the project
-- Improve my skills on prompting AI. And also using different AI models such as claude and chat. 
-- How to connect UI selections (duration/water) to real-time countdown logic
-- How to debug style/state issues faster by testing one step at a time
 
-I still reviewed and adjusted all generated code manually so it fits my project goals and client needs.
+
+
+
