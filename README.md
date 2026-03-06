@@ -1,4 +1,4 @@
-# Fasting Companion
+# Fasting Companion Mini Project 1 
 
 Fasting Companion is a mini project built to support my friend Kike during fasting periods.
 
